@@ -19,13 +19,11 @@ header{
     margin-right: 10px;
 }
 nav{
-   
     text-align: center; /* пункты и текст горизонтально по центру */
     background-color:#72b7f7;
     padding-top: 0%;
 }
 ul#menu li{
-    
     display:inline-block; 
     text-align: center;
 }
@@ -34,6 +32,7 @@ ul#menu li{
     padding: 0; /* убрать внешние отступы */
 }
 #menu a {
+    margin: 10px;
     color: #fff; /* цвет текста */
     text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
 }
