@@ -1,27 +1,89 @@
-#main-aside-wrapper {
-    display: flex;
-    flex-direction: column;
+
+@media (max-width: 2048px) {
+    header{
+        width: 100%;
+        height: 110px;
+        background-color:#8acbf7;
     }
-    #main-aside-wrapper main, #main-aside-wrapper aside {
-    background-color: #ddd;
-    margin: 10px;
-    padding: 10px;
+    .title{
+        margin: 0; 
+        padding: 0; 
+        line-height: 110px;
+        font-size: 50px;
+        font-family: serif ;
+        padding-top: 0;
     }
-    #main-aside-wrapper aside {
-    flex: 1;
-    order: 1;
+        
+    #logo {
+        width: 110px;
+        height: 110px;
+        float: left;
+        margin-right: 10px;
     }
-    #main-aside-wrapper main {
-    flex: 3;
-    order: 2;
+    nav{
+   
+        text-align: center; /* пункты и текст горизонтально по центру */
+        background-color:#72b7f7;
+        padding-top: 0%;
     }
-    @media screen and (min-width: 800px) {
-    #main-aside-wrapper {
-    flex-direction: row;
+    ul#menu li{
+        
+        display:block; 
+        text-align: center;
     }
+    #menu, #menu li {
+        margin: 0; /* убрать внутренние отступы */
+        padding: 0; /* убрать внешние отступы */
     }
-    
-header{
+    #menu a {
+        margin: 10px;
+        color: #fff; /* цвет текста */
+        text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+    }
+    #menu a:hover {
+        background: #1c04f1; /* фон пунктов при наведении */
+    }   
+    div{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     table{
+         border-collapse:collapse;
+         width:50%;
+         margin-bottom: 20px;
+     }
+     table, th, td{
+         border: 1px solid black;
+     }
+     .table th, td{
+         height:50px;
+         text-align: center;
+     }
+     th{
+         background-color: gray;
+     }
+     tr:nth-child(even){
+         background-color: #b9bdbe;
+     }
+     footer{
+         width: 100%;
+         height: 100px;
+         background-color:#8acbf7;
+     }
+     .footer{
+         margin: 0; 
+         padding: 0; 
+         font-size: 14px;
+         font-family: 'Times New Roman', Times, serif ;
+         padding-top: 0;
+         line-height: 100px;
+     } 
+}
+
+@media (max-width: 1000px) {
+   header{
     width: 100%;
     height: 110px;
     background-color:#8acbf7;
@@ -102,3 +164,6 @@ footer{
     padding-top: 0;
     line-height: 100px;
 }
+ }
+
+
