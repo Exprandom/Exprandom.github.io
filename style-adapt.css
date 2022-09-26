@@ -1,6 +1,5 @@
 
-@media (max-width: 1000px) {
-    header{
+   header{
         width: 100%;
         height: 110px;
         background-color:#8acbf7;
@@ -8,6 +7,7 @@
     .title{
         margin: 0; 
         padding: 0; 
+        display:block;
         line-height: 110px;
         font-size: 50px;
         font-family: serif ;
@@ -81,9 +81,9 @@
          padding-top: 0;
          line-height: 100px;
      } 
-}
 
-@media (min-width: 1024px) {
+
+@media (min-width: 768px) {
    header{
     width: 100%;
     height: 110px;
