@@ -85,7 +85,7 @@
         justify-content: center;
         
     }
-@media (min-width: 960px) {
+@media (min-width: 1080px) {
     .header{
         width: 960px;
         display: block;
