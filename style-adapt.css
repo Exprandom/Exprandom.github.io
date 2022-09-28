@@ -47,7 +47,7 @@
         flex-direction: column;
         width: 100%;
         justify-content: stretch;
-	align-items: center;
+	    align-items: center;
      }
      .table{
         display: flex;
@@ -81,7 +81,7 @@
         padding: 0; 
         line-height: 110px;
         font-size: 20px;
-        font-family: serif ;
+        font-family: serif;
         padding-top: 0;
     } 
     .form{
@@ -103,10 +103,17 @@
     .ahr{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100%;  
+        font-size: 20px;
+    }
+    .ahr li{
         justify-content: stretch;
-	align-items: stretch;
-        margin-left: 20px; 
+	    align-items: stretch;
+        margin-left: 50px;; 
+    }
+    .ahr a{
+        font-size: 20px;
+        font-family: serif;
     }
 @media (min-width: 1080px) {
     .header{
