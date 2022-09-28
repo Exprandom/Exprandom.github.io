@@ -19,7 +19,7 @@
           <li><a href="#p3" title="Форма">Форма</a></li>
         </ul>
         </nav>
-      <h2 id="p1">Нумерованный список гиперссылок</h2>
+      <h1 id="p1">Нумерованный список гиперссылок</h1>
       <ol> 
         <li><a href="http://example.com/">example</a></li>
         <li><a href="https://example.com/">example</a></li>
@@ -53,9 +53,10 @@
         <li><a href="../../index.html"> относительная ссылка на страницу в каталоге двумя уровнями выше </a></li>
         <li><a href="/">  сокращенная на главную</a></li>
         <li><a href="/next">  сокращенная на внутреннюю</a></li>
-      </ol> 
-      <h2 id="p2">Таблица</h2>
-      <table class="table">
+      </ol>
+      <div class="table">
+      <h1 id="p2">Таблица</h1><br />
+      <table>
           <thead>
               <tr>
               <th>№ п/п</th>
@@ -108,42 +109,46 @@
             </tr>
           </tbody>
       </table>
-      <h2 id="p3">Форма</h2>
+      </div>
+      
       <div class="form">
-        <form action="index.html" method="POST">
-            <label>Имя: <br />
-              <input type="text"  name="field_name"  placeholder="Введите имя">
-            </label>
-            <label><br />E-mail:<br />
-              <input type="email"  name="field-email"  placeholder="Введите  email">
-            </label>
-            <label><br />Дата рождения:<br />
-              <input type="date"  name="field-date" value="1900-01-01" > 
-            </label>          
-            <label><br />Пол:<br />
-              <input type="radio" name="radio-group-2" value="Значение1" />Женский</label>
-              <label><input type="radio" name="radio-group-2" value="Значение2" />Мужской</label>
-            <label><br />Количество конечностей:<br />
-              <input type="radio"  name="radio-group-1" value="Значение1" />2</label>
-              <label><input type="radio" name="radio-group-1" value="Значение3" />3</label>
-              <label><input type="radio" name="radio-group-1" value="Значение4" />4</label>
-            <label>
-              <br />Сверхспособности:<br />
-              <select name="field-liest" multiple="multiple">
-              <option value="Значение1">бессмертие</option>
-              <option value="Значение2" >прохождение сквозь стены</option>
-              <option value="Значение3" >левитация</option>
-              </select>
-            </label>
+        <h1 id="p3">Форма</h1>
+        <div class="b">
+          <form action="index.html" method="POST">
+              <label>Имя: 
+                <input type="text"  name="field_name"  placeholder="Введите имя">
+              </label>
+              <label><br />E-mail:
+                <input type="email"  name="field-email"  placeholder="Введите  email">
+              </label>
+              <label><br />Дата рождения:
+                <input type="date"  name="field-date" value="1900-01-01" > 
+              </label>          
+              <label><br />Пол:<br />
+                <input type="radio" name="radio-group-2" value="Значение1" />Женский</label>
+                <label><input type="radio" name="radio-group-2" value="Значение2" />Мужской</label>
+              <label><br />Количество конечностей:<br />
+                <input type="radio"  name="radio-group-1" value="Значение1" />2</label>
+                <label><input type="radio" name="radio-group-1" value="Значение3" />3</label>
+                <label><input type="radio" name="radio-group-1" value="Значение4" />4</label>
+              <label>
+                <br />Сверхспособности:<br />
+                <select name="field-liest" multiple="multiple">
+                <option value="Значение1">бессмертие</option>
+                <option value="Значение2" >прохождение сквозь стены</option>
+                <option value="Значение3" >левитация</option>
+                </select>
+              </label>
+              
+              <label>
+                <br />Биография:<br />
+                <textarea name="field-text" placeholder="Расскажите о себе"></textarea>
+              </label><br />
             
-            <label>
-              <br />Биография:<br />
-              <textarea name="field-text" placeholder="Расскажите о себе"></textarea>
-            </label><br />
-          
-            <label><input type="checkbox" name="check-1" /><strong>C контрактом ознакомлен(а)</strong></label><br />
-            <input type="submit" value="Отправить">
-        </form>
+              <label><input type="checkbox" name="check-1" /><strong>C контрактом ознакомлен(а)</strong></label><br />
+              <input type="submit" value="Отправить">
+          </form>
+        </div>
       </div>
       <br>
     
