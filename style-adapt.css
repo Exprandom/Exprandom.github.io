@@ -47,7 +47,7 @@
         flex-direction: column;
         width: 100%;
         justify-content: stretch;
-	    align-items: center;
+	align-items: center;
      }
      .table{
         display: flex;
@@ -105,8 +105,8 @@
         flex-direction: column;
         width: 100%;
         justify-content: stretch;
-	    align-items: stretch;
-        margin-left: 10px; 
+	align-items: stretch;
+        margin-left: 20px; 
     }
 @media (min-width: 1080px) {
     .header{
